@@ -1,5 +1,7 @@
-body{
-    margin:0;
-    background-color:chartreuse;
-    /* text-align:center; */
-}
+body {
+  margin: 0;
+  background-color: chartreuse;
+  /* text-align:center; */ }
+  body #layout-main {
+    height: 100%;
+    background-color: aliceblue; }
