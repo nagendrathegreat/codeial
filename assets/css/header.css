@@ -1,0 +1,19 @@
+header {
+  width: 100%;
+  margin: -5px;
+  padding: 0;
+  height: 50px;
+  background-size: contain;
+  background-color: cornflowerblue; }
+  header ul {
+    list-style: none;
+    margin-top: 5px;
+    padding-top: 15px; }
+    header ul li {
+      display: inline;
+      float: right;
+      margin-top: -10px;
+      margin-right: 0px; }
+      header ul li a {
+        padding-right: 20px;
+        text-decoration: none; }

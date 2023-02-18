@@ -1,7 +1,9 @@
 body {
   margin: 0;
-  background-color: chartreuse;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   /* text-align:center; */ }
   body #layout-main {
     height: 100%;
     background-color: aliceblue; }
+  body section {
+    margin-left: 15px; }

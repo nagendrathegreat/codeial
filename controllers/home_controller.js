@@ -1,5 +1,5 @@
 const Post=require('../models/post');
-
+const User=require('../models/users');
 module.exports.home = function(req,res){
     //return res.end('<h1>Express is up for codeial!</h1> ');
     //console.log(req.cookies);
@@ -11,13 +11,26 @@ module.exports.home = function(req,res){
     //     });
         
     // });
-    Post.find({}).populate('user').exec(function(err,posts){
-        return res.render('home',{
+    Post.find({}).populate('user',)
+    .populate({
+        path:'comments',
+        populate:{
+            path:'user'
+        }
+    })
+    .exec(function(err,posts){
+        User.find({},function(err,users){
+            return res.render('home',{
 
-            title:"Codeial | Home",
-            posts:posts
+                title:"Codeial | Home",
+                posts:posts,
+                all_users:users
+            });
         });
+
+
         
+
     }
 
     )
