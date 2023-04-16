@@ -1,0 +1,14 @@
+footer {
+  height: 300px; }
+  footer h2 {
+    cursor: pointer;
+    font-size: 72px;
+    background: -webkit-linear-gradient(90deg, #dd7b7b, #070584 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.8s ease-in-out 8ms; }
+  footer h2:hover {
+    background: -webkit-linear-gradient(90deg, #170d99, #dd7b7b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer; }
