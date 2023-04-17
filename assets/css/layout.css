@@ -4,6 +4,47 @@ body {
   /* text-align:center; */ }
   body #layout-main {
     height: 100%;
-    background-color: aliceblue; }
+    background-color: #52a3ea;
+    margin: 2rem;
+    padding: 0.5rem 1rem; }
   body section {
-    margin-left: 15px; }
+    margin-left: 15px;
+    margin: 10px; }
+  body .card {
+    background: linear-gradient(90deg, aliceblue, rgba(190, 240, 27, 0.705));
+    background-size: contain;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 2rem; }
+    body .card form input {
+      outline-style: inherit;
+      outline-offset: 1px;
+      outline-width: 2rem;
+      outline-color: #250303;
+      margin: 2px;
+      height: 20px;
+      width: 250px;
+      border-radius: none;
+      border: 2px solid #055d65;
+      background-color: rgba(17, 60, 200, 0.591);
+      color: beige; }
+    body .card form input[type="submit"] {
+      outline-style: inherit;
+      outline-offset: 1px;
+      outline-width: 2rem;
+      outline-color: #250303;
+      margin: 2px;
+      height: 25px;
+      width: 258px;
+      border-radius: none;
+      border: 2px solid red;
+      padding: 2px 10px;
+      background-color: #338bd8;
+      color: white;
+      cursor: pointer; }
+    body .card form ::placeholder {
+      color: blue; }
